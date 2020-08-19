@@ -10,27 +10,33 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+
+    <link rel="stylesheet" href="./src/main.css"/>
     <title>
       Frontend Mentor | Huddle landing page with single introductory section
     </title>
   </head>
   <body>
-    <header>
-      <img src="images/logo.svg" alt="Logo-Huddle"/>
+    <header class="Header">
+      <img src="./images/logo.svg" alt="Logo-Huddle"/>
     </header>
     
-    <main>
-      <img src="./images/illustration-mockups.svg" alt="">
-      <h1>Build The Community Your Fans Will Love</h1>
-      <p>
-        Huddle re-imagines the way we build
-        communities. You have a voice, but so does your audience. Create connections
-        with your users as you engage in genuine discussion
-      </p>
-      <button>Register</button>
+    <main class="Main">
+      <div class="image__container">
+        <img class="Main__image" src="./images/illustration-mockups.svg" alt="">
+      </div>
+      <div class="info__container">
+        <h1 class="Main__title">Build The Community Your Fans Will Love</h1>
+        <p class="Main__description">
+          Huddle re-imagines the way we build
+          communities. You have a voice, but so does your audience. Create connections
+          with your users as you engage in genuine discussion
+        </p>
+        <button class="Main__button-register">Register</button>
+      </div>
       
     </main>
-    <footer>
+    <footer class="Footer">
       <img src="" alt="icono facebook">
       <img src="" alt="icono twitter">
       <img src="" alt="icono instagram">
