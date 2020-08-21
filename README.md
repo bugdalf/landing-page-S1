@@ -5,7 +5,8 @@
 **Para realizar este reto, se utilizo HTML y CSS.**
 
 Realizado por Vander Idme
-twtter -> @ankynator
+
+twitter -> @ankynator
 
 ## Creditos por el diseño y reto.
 
