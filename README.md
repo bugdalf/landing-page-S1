@@ -6,10 +6,10 @@
 
 Realizado por Vander Idme
 
-twitter -> @ankynator
+twitter: [@ankynator](https://twitter.com/ankynator)
 
 ## Creditos por el diseño y reto.
 
 - Este reto pertenece a la lista de retos de [Frontend Mentor](https://www.frontendmentor.io)
 
-- Retos Escuela de desarrollo web de Platzi
+- Fomentado/impulsado/obligado por [#PlatziWebChallange - Semana #1](https://platzi.com/comunidad/platziwebchallange-semana-1-2/)
