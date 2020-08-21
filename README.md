@@ -4,6 +4,8 @@
 
 **Para realizar este reto, se utilizo HTML y CSS.**
 
+Mira el resultado aqui [landing-page-s1](https://ankynator.github.io/landing-page-S1/)
+
 Realizado por Vander Idme
 
 twitter: [@ankynator](https://twitter.com/ankynator)
