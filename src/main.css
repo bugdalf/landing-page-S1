@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   background-color: hsl(257, 40%, 49%);
   background-image: url("../images/bg-desktop.svg");
@@ -11,7 +15,6 @@ body {
   padding: 0px;
   font-family: "Poppins";
   font-size: 16px;
-  overflow: hidden;
 }
 
 .Header {
@@ -25,7 +28,7 @@ body {
 }
 
 .Main {
-  min-height: 65vh;
+  min-height: 60vh;
   display: grid;
   grid-template-columns: 3fr 2fr;
   padding: 0 6rem;
@@ -91,6 +94,12 @@ body {
   color: white;
 }
 
+@media only screen and (max-width: 1240px) {
+  .Header {
+    padding: 2rem 4rem 2rem 4rem;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   body {
     text-align: center;
@@ -108,7 +117,7 @@ body {
   }
 
   .Main {
-    min-height: 70vh;
+    min-height: 60vh;
     display: grid;
     grid-template-columns: 1fr;
     padding: 0 3rem;
@@ -132,6 +141,13 @@ body {
   body {
     background-image: url("../images/bg-mobile.svg");
     background-repeat: no-repeat;
+  }
+
+  .Header {
+    height: 5rem;
+    max-width: 1440px;
+    padding: 1.2rem 0 0rem 2.5rem;
+    text-align: left;
   }
 
   .Main {
